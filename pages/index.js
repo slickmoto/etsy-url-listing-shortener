@@ -11,8 +11,7 @@ export default function LandingPage() {
       <main>
         <h1>Welcome to the Etsy URL Shortener Extension</h1>
         <p>
-          This landing page provides information about the Etsy URL Shortener Extension.
-          Customize this page as needed for your extension's details and features.
+          This landing page provides information about the Etsy URL Shortener Firefox Extension.
         </p>
         <p>Download the extension from the Firefox Add-ons store.</p>
       </main>
