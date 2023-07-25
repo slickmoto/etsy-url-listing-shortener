@@ -37,7 +37,7 @@ const RedirectPage = () => {
         console.log('Access Token:', accessToken);
 
         // Replace 'YOUR_EXTENSION_URL' with the actual URL of your Etsy URL Shortener Extension
-        window.location.replace('YOUR_EXTENSION_URL');
+        window.location.replace(https://etsy-url-listing-shortener.netlify.app/);
       } catch (error) {
         console.error('Error:', error);
         // Redirect the user back to your extension with an error message
