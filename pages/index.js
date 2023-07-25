@@ -1,23 +1,21 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+// pages/index.js
+import Head from 'next/head';
 
-export default function Home() {
+export default function LandingPage() {
   return (
-    <div className="container">
+    <div>
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Etsy URL Shortener Extension</title>
+        <meta name="description" content="Etsy URL Shortener Extension Landing Page" />
       </Head>
-
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
+        <h1>Welcome to the Etsy URL Shortener Extension</h1>
+        <p>
+          This landing page provides information about the Etsy URL Shortener Extension.
+          Customize this page as needed for your extension's details and features.
         </p>
+        <p>Download the extension from the Firefox Add-ons store.</p>
       </main>
-
-      <Footer />
     </div>
-  )
+  );
 }
