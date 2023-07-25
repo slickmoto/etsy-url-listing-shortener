@@ -41,7 +41,7 @@ const RedirectPage = () => {
       } catch (error) {
         console.error('Error:', error);
         // Redirect the user back to your extension with an error message
-        window.location.replace('YOUR_EXTENSION_URL?error=1');
+        window.location.replace(https://etsy-url-listing-shortener.netlify.app/?error=1');
       }
     };
 
@@ -50,7 +50,7 @@ const RedirectPage = () => {
       callBitlyAPI();
     } else {
       // Redirect the user back to your extension with an error message if no code is provided
-      window.location.replace('YOUR_EXTENSION_URL?error=1');
+      window.location.replace(https://etsy-url-listing-shortener.netlify.app/?error=1');
     }
   }, []);
 
