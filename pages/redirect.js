@@ -58,3 +58,14 @@ const RedirectPage = () => {
 };
 
 export default RedirectPage;
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/redirect',
+        destination: '/redirect',
+        permanent: false,
+      },
+    ];
+  },
+};
