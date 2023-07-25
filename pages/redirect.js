@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 const RedirectPage = () => {
   useEffect(() => {
     // Add your Bitly client ID and secret here
-    const clientID = 'YOUR_BITLY_CLIENT_ID';
-    const clientSecret = 'YOUR_BITLY_CLIENT_SECRET';
+    const clientID = 5b1121217f398a80af7f5957b8422cd52de2bb26;
+    const clientSecret = f1ca3010649ca6f5d4ae38adb74d1295b85b36da;
 
     // Get the query parameter "code" from the URL
     const urlParams = new URLSearchParams(window.location.search);
